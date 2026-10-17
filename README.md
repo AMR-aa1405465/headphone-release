@@ -2,6 +2,14 @@
 
 A small macOS menu bar app that lets Bluetooth multipoint headphones go idle when your Mac is silent.
 
+[Download the latest Mac app](https://github.com/AMR-aa1405465/headphone-release/releases/latest)
+
+## Screenshots
+
+| Automatic release during silence | Always use headphones |
+| --- | --- |
+| <img src="docs/screenshots/automatic-release.png" alt="Headphone Release automatically releasing the headphones during silence" width="380"> | <img src="docs/screenshots/always-use-headphones.png" alt="Always use headphones override keeping the headphones active" width="380"> |
+
 ## The problem
 
 Multipoint headphones can stay connected to a Mac and a phone at the same time. They are supposed to play audio from whichever device is active.
