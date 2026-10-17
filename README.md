@@ -2,6 +2,8 @@
 
 A small macOS menu bar app that lets Bluetooth multipoint headphones go idle when your Mac is silent.
 
+I have designed this app, because everytime I connect my mac to a dual-connection headphone, it keeps my headphones busy even without playing, which affects the other devices connection.
+
 [Download the latest Mac app](https://github.com/AMR-aa1405465/headphone-release/releases/latest)
 
 ## Screenshots
@@ -10,11 +12,6 @@ A small macOS menu bar app that lets Bluetooth multipoint headphones go idle whe
 | --- | --- |
 | <img src="docs/screenshots/settings-purple.png" alt="Headphone Release settings on a purple background" width="440"> | <img src="docs/screenshots/menu-bar.png" alt="Headphone Release menu bar controls on a purple background" width="340"> |
 
-## The problem
-
-Multipoint headphones can stay connected to a Mac and a phone at the same time. They are supposed to play audio from whichever device is active.
-
-Sometimes the Mac keeps the headphones occupied even when nothing is playing. An app may keep an audio stream open and send silence, making it difficult for the phone to take over.
 
 ## The solution
 
