@@ -6,9 +6,9 @@ A small macOS menu bar app that lets Bluetooth multipoint headphones go idle whe
 
 ## Screenshots
 
-| Automatic release during silence | Always use headphones |
+| Settings and automatic release | Menu bar controls |
 | --- | --- |
-| <img src="docs/screenshots/automatic-release.png" alt="Headphone Release automatically releasing the headphones during silence" width="380"> | <img src="docs/screenshots/always-use-headphones.png" alt="Always use headphones override keeping the headphones active" width="380"> |
+| <img src="docs/screenshots/automatic-release.png" alt="Headphone Release automatically releasing the headphones during silence" width="380"> | <img src="docs/screenshots/menu-bar.png" alt="Headphone Release menu bar showing Released status and playback controls" width="380"> |
 
 ## The problem
 
