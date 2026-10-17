@@ -6,13 +6,9 @@ A small macOS menu bar app that lets Bluetooth multipoint headphones go idle whe
 
 ## Screenshots
 
-Settings and automatic release:
-
-![Headphone Release settings on a purple background](docs/screenshots/settings-purple.png)
-
-Menu bar controls:
-
-<img src="docs/screenshots/menu-bar.png" alt="Headphone Release menu bar showing Released status and playback controls" width="480">
+| Settings and automatic release | Menu bar controls |
+| --- | --- |
+| <img src="docs/screenshots/settings-purple.png" alt="Headphone Release settings on a purple background" width="440"> | <img src="docs/screenshots/menu-bar.png" alt="Headphone Release menu bar controls on a purple background" width="340"> |
 
 ## The problem
 
@@ -27,6 +23,16 @@ I built Headphone Release to give the other device a chance to play without manu
 The app checks actual audio samples instead of relying on an app's playback status. After a few seconds of silence, it switches the Mac's default output to a fallback device, usually the built-in speakers. When sound returns, it switches back to the headphones.
 
 Bluetooth stays connected throughout. Whether this releases the headphones' multipoint priority depends on the headset and its firmware.
+
+## Multipoint headphone examples
+
+These headphones support connecting to two devices. Headphone Release has been tested here with the soundcore AeroClip; the other models illustrate the same multipoint use case.
+
+| Anker soundcore Space Q45 | soundcore AeroClip | Sony WH-1000XM6 |
+| --- | --- | --- |
+| <a href="https://www.soundcore.com/products/space-q45-a3040011"><img src="https://cdn.shopify.com/s/files/1/0516/3761/6830/files/A3040G11_64363979-86bd-4bbf-a122-d26fadaa97cd.png?v=1751962475" alt="Anker soundcore Space Q45 headphones" width="240"></a> | <a href="https://www.soundcore.com/products/a3388-aeroclip-open-earbuds"><img src="https://cdn.shopify.com/s/files/1/0516/3761/6830/files/A3388Z11_DTC_listing_image_TD01_US_V1_59c18857-9355-46ac-ac07-48f92411ed6a.png?v=1763430064" alt="soundcore AeroClip open-ear earbuds" width="240"></a> | <a href="https://www.sony.co.uk/headphones/products/wh-1000xm6"><img src="https://sony.scene7.com/is/image/sonyglobalsolutions/GGB-8071_Olive_Gray_Gallery-1?wid=600&amp;fmt=png-alpha" alt="Sony WH-1000XM6 headphones" width="240"></a> |
+
+Product images are linked from the official soundcore and Sony websites and belong to their respective owners. Click an image to visit its product page.
 
 ## Features
 
